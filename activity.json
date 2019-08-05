@@ -1,0 +1,49 @@
+{
+  "name": "listfilesarray",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/listfilesarray",  
+  "title": "listfilesarray",
+  "description": "Lists all the files in the directory",
+  "author": "Purna S <purna.sadanala@prowesssoft.com>",
+
+  "inputs":[
+    
+	{
+      "name": "Path",
+      "type": "string",
+      "required": true
+    },
+	{
+      "name": "SubDirectories[Y/N]",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "FileName",
+      "type": "any"
+    },
+	{
+      "name": "Directory",
+      "type": "any"
+    },
+	{
+      "name": "Extension",
+      "type": "any"
+    },
+	{
+      "name": "Size",
+      "type": "any"
+    },
+	{
+      "name": "ModTime",
+      "type": "any"
+    },
+	{
+      "name": "MinutesDiff",
+      "type": "any"
+    }
+  ]
+}
